@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div id="errorname"></div>
+        <input type="text" id="name" placeholder="Enter Name" onblur="s('name');"><br><br>
+        <div id="erroremail"></div>
+        <input type="email" id="email" placeholder="Enter Email" onblur="s('email');"><br><br>
+        <div id="errornumber"></div>
+        <input type="text" id="number" placeholder="Enter Number" onblur="s('number');"><br><br>
+        <div id="errorpsw"></div>
+        <input type="password" id="psw" placeholder="Enter Password" onblur="s('psw');"><br><br>
+        <div id="errorpsw2"></div>
+        <input type="password" id="psw2" placeholder="Confirm Password" onblur="s('psw2');"><br><br>
+        <button onclick="return data();">Click</button>
+    </form>
+    
+    <script src="/script2.js"></script>
+</body>
+</html>
